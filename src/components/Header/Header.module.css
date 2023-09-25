@@ -1,0 +1,11 @@
+.circle {
+  @apply bg-blue-200 w-[40px] h-[40px] mx-auto relative top-10 rounded-full;
+}
+
+.headers {
+  @apply text-heading-L text-center pt-20 pb-14;
+}
+
+p {
+  @apply text-center;
+}

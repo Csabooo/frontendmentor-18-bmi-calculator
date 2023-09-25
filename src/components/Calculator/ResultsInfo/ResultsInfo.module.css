@@ -1,0 +1,19 @@
+.resultsTable {
+  @apply text-left;
+}
+
+/* .results img {
+  @apply text-left px-0;
+} */
+
+.results {
+  @apply px-5;
+}
+
+.results h2 {
+  @apply pt-10;
+}
+
+.results p {
+  @apply text-left py-10;
+}
