@@ -1,0 +1,35 @@
+.suggestions {
+  @apply px-5;
+}
+
+.suggestions h2 {
+  @apply text-left py-5;
+}
+
+.suggestions p {
+  @apply text-left;
+}
+
+.suggestions svg {
+  @apply mt-10 mb-5;
+}
+
+.footers {
+  @apply px-5 mb-20;
+}
+
+.footers h1 {
+  @apply text-center pt-28 py-10;
+}
+
+.footers h3 {
+  @apply text-heading-S inline-block pl-3 pt-20 pb-5;
+}
+
+.footers p {
+  @apply text-left;
+}
+
+.footers svg {
+  @apply inline-block -translate-y-1 -translate-x-1;
+}
