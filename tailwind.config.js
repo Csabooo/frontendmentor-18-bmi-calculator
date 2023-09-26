@@ -29,28 +29,28 @@ export default {
           },
         ],
         "heading-XL": [
-          "4rem",
+          "4rem", //64px
           {
             lineHeight: "110%",
             fontWeight: "400",
           },
         ],
         "heading-L": [
-          "2.5rem",
+          "3rem", //48px
           {
             lineHeight: "110%",
             fontWeight: "400",
           },
         ],
         "heading-M": [
-          "2rem",
+          "2rem", //32px
           {
             lineHeight: "110%",
             fontWeight: "400",
           },
         ],
         "heading-S": [
-          "1.3rem",
+          "1.5rem", //24px
           {
             lineHeight: "110%",
             fontWeight: "400",

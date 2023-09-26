@@ -1,8 +1,8 @@
 .suggestions {
-  @apply px-5;
+  @apply px-5 bg-gradient-to-b from-pure_White to-[#f6faff] py-24;
 }
 
-.suggestions h2 {
+.suggestions h3 {
   @apply text-left py-5;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .footers h1 {
-  @apply text-center pt-28 py-10;
+  @apply text-center pt-28 py-10 text-[2rem];
 }
 
 .footers h3 {

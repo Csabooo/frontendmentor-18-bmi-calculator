@@ -13,3 +13,43 @@
 .result p {
   @apply text-left py-5;
 }
+
+.radioButton {
+  @apply flex justify-between align-middle py-6;
+}
+
+.radioButton label {
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid theme(colors.borders);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.radioButton label input {
+  display: none;
+}
+
+.radioButton label span {
+  position: absolute;
+  display: inline-block;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-53%, -53%);
+  background-color: theme(colors.blues);
+  border-radius: 50%;
+  opacity: 0;
+  @apply ring-8 ring-blue-100;
+}
+
+.radioButton label input:checked + span {
+  opacity: 1;
+}
+
+.row {
+  @apply flex justify-center align-middle;
+}

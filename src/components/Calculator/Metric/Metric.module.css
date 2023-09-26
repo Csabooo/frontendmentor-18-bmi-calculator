@@ -3,11 +3,11 @@
 }
 
 .input_table label {
-  @apply text-body-m;
+  @apply text-body-m py-2;
 }
 
 .input_table span {
-  @apply text-heading-M  max-w-fit absolute inline-block top-[50%] right-[20px]  -translate-y-1/2;
+  @apply text-heading-S  max-w-fit absolute inline-block top-[50%] right-[20px]  -translate-y-1/2;
 }
 
 input {
@@ -15,5 +15,5 @@ input {
 }
 
 input[placeholder] {
-  @apply placeholder:text-gunmetal py-5 pl-5 text-heading-M;
+  @apply placeholder:text-gunmetal py-5 pl-5 text-heading-S;
 }
