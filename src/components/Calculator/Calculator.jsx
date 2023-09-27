@@ -6,7 +6,7 @@ import ResultsInfo from './ResultsInfo/ResultsInfo'
 
 function Calculator() {
 
-    const [defaultState, setState] = useState(false);
+    const [defaultState, setState] = useState(true);
 
     const radioButtonHandler = () => {
         setState(prevState => !prevState)
@@ -21,15 +21,15 @@ function Calculator() {
 
                 <div className={classes.radioButton}>
                     <div className={classes.row}>
-                        <label htmlFor="radio1">
-                            <input onClick={radioButtonHandler} type="radio" name="radio" id="radio1" />
+                        <label htmlFor="metric">
+                            <input onClick={radioButtonHandler} type="radio" name="radio" id="metric" checked={defaultState} />
                             <span className='ball'></span>
                         </label>
-                        <span>Metric</span>
+                        <span >Metric</span>
                     </div>
                     <div className={classes.row}>
-                        <label htmlFor="radio2">
-                            <input onClick={radioButtonHandler} type="radio" name="radio" id="radio2" />
+                        <label htmlFor="imperial">
+                            <input onClick={radioButtonHandler} type="radio" name="radio" id="imperial" checked={!defaultState} />
                             <span className='ball'></span>
                         </label>
                         <span>Imperial</span>
