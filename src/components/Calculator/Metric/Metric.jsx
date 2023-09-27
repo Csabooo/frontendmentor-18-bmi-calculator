@@ -18,8 +18,6 @@ function Metric() {
                 <span className="">kg</span>
             </div>
         </div>
-
-
     )
 }
 

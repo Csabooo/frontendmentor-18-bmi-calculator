@@ -1,0 +1,27 @@
+.input_table {
+  @apply flex flex-col relative;
+}
+
+.input_table label {
+  @apply text-body-m py-2;
+}
+
+.input_table span {
+  @apply text-heading-S  max-w-fit absolute inline-block top-[50%] right-[20px]  -translate-y-1/2;
+}
+
+.ft {
+  @apply text-heading-S  max-w-fit absolute inline-block top-[50%] right-0 -translate-y-1/2;
+}
+
+.st {
+  @apply text-heading-S  max-w-fit absolute inline-block top-[50%] right-0 -translate-y-1/2;
+}
+
+input {
+  @apply outline-none border border-borders rounded-xl focus:border-blues hover:border-blues w-full;
+}
+
+input[placeholder] {
+  @apply placeholder:text-gunmetal py-5 pl-5 text-heading-S;
+}
