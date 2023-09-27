@@ -7,6 +7,12 @@ span {
   @apply text-[10px] font-normal;
 }
  */
+
 .all {
   @apply pt-7 text-center;
+}
+
+.all a,
+.all span {
+  @apply text-body-s font-normal;
 }
