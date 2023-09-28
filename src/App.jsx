@@ -8,12 +8,15 @@ import Attribution from "./components/Attribution/Attribution";
 function App() {
 
   return (
-    <>
+    <div className="container mx-auto">
       <Header></Header>
-      <Calculator></Calculator>
-      <MainTable></MainTable>
-      <Attribution></Attribution>
-    </>
+      <div className="relative -top-40 md:-top-60" >
+        <Calculator></Calculator>
+        <MainTable></MainTable>
+        <Attribution></Attribution>
+      </div>
+
+    </div>
   )
 }
 

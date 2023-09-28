@@ -33,4 +33,4 @@ function Imperial() {
     )
 }
 
-export default Imperial
+export default Imperial;

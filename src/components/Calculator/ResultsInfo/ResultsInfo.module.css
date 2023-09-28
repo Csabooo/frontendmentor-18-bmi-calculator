@@ -1,13 +1,9 @@
 .resultsTable {
-  @apply text-left;
+  @apply text-left md:grid grid-cols-2 gap-x-14 overflow-hidden md:px-10;
 }
 
-/* .results img {
-  @apply text-left px-0;
-} */
-
 .results {
-  @apply px-5;
+  @apply px-5 md:px-0;
 }
 
 .results h2 {

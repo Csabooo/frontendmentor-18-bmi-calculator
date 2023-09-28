@@ -24,6 +24,6 @@
 
 @layer components {
   .background {
-    @apply bg-gradient-to-br from-pure_White to-blue-100 max-h-[640px] rounded-b-3xl px-5 pb-40;
+    @apply bg-gradient-to-br from-pure_White to-blue-100 h-[640px] rounded-b-3xl px-5 md:px-10 pb-40;
   }
 }

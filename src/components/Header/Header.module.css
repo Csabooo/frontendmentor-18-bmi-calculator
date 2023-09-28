@@ -3,9 +3,9 @@
 }
 
 .headers {
-  @apply text-heading-L text-center pt-20 pb-14;
+  @apply text-heading-L text-center pt-20 pb-14 md:pt-20 md:pb-2;
 }
 
 p {
-  @apply text-center;
+  @apply text-center md:pt-5;
 }

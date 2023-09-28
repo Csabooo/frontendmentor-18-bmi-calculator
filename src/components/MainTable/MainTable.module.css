@@ -1,5 +1,5 @@
 .suggestions {
-  @apply px-5 bg-gradient-to-b from-pure_White to-[#f6faff] py-24;
+  @apply px-5 md:px-10 bg-gradient-to-b from-pure_White to-[#f6faff] py-24 md:py-16 md:bg-gradient-to-r md:from-pure_White md:to-[#f6faff] md:mt-28;
 }
 
 .suggestions h3 {
@@ -14,22 +14,50 @@
   @apply mt-10 mb-5;
 }
 
+.row {
+  @apply md:flex;
+}
+
+/* svg {
+  @apply md:;
+}
+ */
+
+.text {
+  @apply md:pl-10 md:w-[90%];
+}
+
+.bmi {
+  @apply md:text-center;
+}
+
+.texts p {
+  @apply text-left;
+}
+
 .footers {
-  @apply px-5 mb-20;
+  @apply px-5 mb-20 md:px-10;
 }
 
 .footers h1 {
-  @apply text-center pt-28 py-10 text-[2rem];
+  @apply text-center pt-28 py-10 text-[2rem] md:text-center;
 }
 
 .footers h3 {
   @apply text-heading-S inline-block pl-3 pt-20 pb-5;
 }
 
-.footers p {
-  @apply text-left;
-}
-
 .footers svg {
   @apply inline-block -translate-y-1 -translate-x-1;
+}
+
+.group {
+  @apply md:grid md:grid-cols-2 md:gap-y-10 md:gap-x-16;
+}
+.lasts {
+  @apply md:last:col-span-2 w-1/2 mx-auto;
+}
+
+.lasts p {
+  @apply md:text-left;
 }
