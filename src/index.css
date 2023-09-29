@@ -1,29 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+ */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../src/assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "Inter-VariableFont";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../src/assets/fonts/static/Inter-VariableFont_slnt,wght.ttf")
+      format("truetype");
+} */
+
 @layer base {
   h1 {
-    @apply text-heading-L;
+    @apply text-heading-L tracking-tighter;
   }
 
   h2 {
-    @apply text-heading-M;
+    @apply text-heading-M tracking-tighter;
   }
 
   h3 {
-    @apply text-heading-S;
+    @apply text-heading-S tracking-tighter;
   }
 
   html {
-    @apply font-inter text-body-m text-gunmetal box-border m-0 p-0 bg-pure_White text-left;
+    @apply font-inter text-body-m text-gunmetal box-border m-0 p-0 bg-pure_White text-left tracking-tight;
   }
+
+  /*   body {
+    @apply font-inter text-body-m text-gunmetal box-border m-0 p-0 bg-pure_White text-left;
+  } */
 }
 
 @layer components {
   .background {
-    @apply bg-gradient-to-br from-pure_White to-blue-100 h-[640px] rounded-b-3xl px-5 md:px-10 pb-40;
+    @apply bg-gradient-to-br from-pure_White to-blue-100 h-[640px] rounded-b-3xl px-5 pb-40 md:px-10 xl:h-[737px] xl:mr-96 xl:mx-5 xl:pt-28;
   }
 }

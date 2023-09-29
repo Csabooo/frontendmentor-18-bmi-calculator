@@ -1,5 +1,5 @@
 .resultsTable {
-  @apply text-left md:grid grid-cols-2 gap-x-14 overflow-hidden md:px-10;
+  @apply text-left md:grid grid-cols-2 gap-x-14 overflow-hidden md:px-10 mt-28 xl:mt-0;
 }
 
 .results {

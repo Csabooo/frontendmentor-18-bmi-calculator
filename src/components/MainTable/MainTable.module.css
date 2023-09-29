@@ -54,10 +54,11 @@
 .group {
   @apply md:grid md:grid-cols-2 md:gap-y-10 md:gap-x-16;
 }
+
 .lasts {
-  @apply md:last:col-span-2 w-1/2 mx-auto;
+  @apply md:last:col-span-2 md:w-1/2 md:mx-auto;
 }
 
 .lasts p {
-  @apply md:text-left;
+  @apply text-left;
 }

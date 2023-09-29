@@ -15,9 +15,9 @@ function Calculator() {
     return (
         <>
             <div className={classes.calculator_table}>
-                <h2>
+                <h3>
                     Enter your details below
-                </h2>
+                </h3>
 
                 <div className={classes.radioButton}>
                     <div className={classes.row}>
@@ -36,18 +36,17 @@ function Calculator() {
                     </div>
 
                 </div>
-                <div>
 
-                    {defaultState ? (<Metric></Metric>) : (<Imperial></Imperial>)}
 
-                    <div className={classes.result}>
-                        <p>Your BMI is...</p>
-                        <h1>23.4</h1>
-                        <p>
-                            Your BMI suggests you’re a healthy weight. Your ideal weight is between 63.3kgs - 85.2kgs.
-                        </p>
-                    </div>
+                {defaultState ? (<Metric></Metric>) : (<Imperial></Imperial>)}
+
+                <div className={classes.result}>
+                    <h3>Welcome!</h3>
+                    <p>
+                        Enter your height and weight and you'll see your BMI result here
+                    </p>
                 </div>
+
 
             </div>
             <ResultsInfo></ResultsInfo>

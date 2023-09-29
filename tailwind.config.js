@@ -9,7 +9,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        inter: "Inter, sans-serif",
+        inter: "Inter-Regular, sans-serif",
       },
       fontSize: {
         "body-s": [
@@ -30,7 +30,7 @@ export default {
           "1rem",
           {
             lineHeight: "150%",
-            fontWeight: "600",
+            fontWeight: "400",
           },
         ],
         "heading-XL": [

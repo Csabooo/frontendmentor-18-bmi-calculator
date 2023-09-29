@@ -8,7 +8,7 @@ import Attribution from "./components/Attribution/Attribution";
 function App() {
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto relative">
       <Header></Header>
       <div className="relative -top-40 md:-top-60" >
         <Calculator></Calculator>
