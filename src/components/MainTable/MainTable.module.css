@@ -1,42 +1,5 @@
-.suggestions {
-  @apply px-5 md:px-10 bg-gradient-to-b from-pure_White to-[#f6faff] py-24 md:py-16 md:bg-gradient-to-r md:from-pure_White md:to-[#f6faff] md:mt-28;
-}
-
-.suggestions h3 {
-  @apply text-left py-5;
-}
-
-.suggestions p {
-  @apply text-left;
-}
-
-.suggestions svg {
-  @apply mt-10 mb-5;
-}
-
-.row {
-  @apply md:flex;
-}
-
-/* svg {
-  @apply md:;
-}
- */
-
-.text {
-  @apply md:pl-10 md:w-[90%];
-}
-
-.bmi {
-  @apply md:text-center;
-}
-
-.texts p {
-  @apply text-left;
-}
-
 .footers {
-  @apply px-5 mb-20 md:px-10;
+  @apply px-5 mb-20 md:px-10 xl:px-32;
 }
 
 .footers h1 {
@@ -52,13 +15,70 @@
 }
 
 .group {
-  @apply md:grid md:grid-cols-2 md:gap-y-10 md:gap-x-16;
+  @apply md:grid md:grid-cols-2 md:gap-y-10 md:gap-x-16 xl:relative;
+}
+
+.limitation {
+  @apply xl:w-1/2;
+}
+
+.limitation p {
+  @apply md:text-center xl:px-0 xl:text-left;
+}
+
+.suggestions {
+  @apply px-5 bg-gradient-to-b from-pure_White to-[#f6faff] py-24 md:px-10 md:py-16 md:bg-gradient-to-r md:from-pure_White md:to-[#f6faff] md:mt-28 xl:mt-0 xl:flex xl:px-28 xl:mx-5 xl:rounded-3xl;
+}
+
+.suggestions h3 {
+  @apply text-left py-5;
+}
+
+.suggestions p {
+  @apply text-left xl:px-0;
+}
+
+.suggestions svg {
+  @apply mt-10 mb-5;
+}
+
+.row {
+  @apply md:flex xl:flex-col;
+}
+
+.text {
+  @apply md:pl-10 md:w-[90%] xl:px-0;
+}
+
+.texts {
+  @apply xl:w-[350px];
+}
+
+.texts:nth-child(1) {
+  @apply xl:absolute xl:-top-64 xl:right-2 xl:w-[350px];
+}
+
+.texts:nth-child(2),
+.texts:nth-child(3) {
+  @apply xl:mt-20 xl:ml-64;
+}
+
+.texts:nth-child(2) {
+  @apply xl:ml-96;
+}
+
+.texts:nth-child(4) {
+  @apply xl:relative xl:left-48 top-0;
+}
+
+.texts p {
+  @apply text-left xl:mx-0 xl:px-0;
 }
 
 .lasts {
-  @apply md:last:col-span-2 md:w-1/2 md:mx-auto;
+  @apply md:last:col-span-2 md:w-1/2 md:mx-auto text-left xl:mx-0 xl:px-0 xl:w-[350px] xl:absolute xl:left-[650px] xl:top-[338px];
 }
 
 .lasts p {
-  @apply text-left;
+  @apply text-left xl:px-0;
 }

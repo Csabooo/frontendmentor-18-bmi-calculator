@@ -6,7 +6,7 @@ function ResultsInfo() {
     return (
         <>
             <div className={classes.resultsTable}>
-                <div className='relative -left-36 w-[140%]'><img className="mx-auto" src={manEating}></img></div>
+                <div className='relative -left-36 w-[140%] xl:left-0 xl:w-fit'><img className="mx-auto" src={manEating}></img></div>
 
                 <div className={classes.results}>
                     <h2>What your BMI result means</h2>

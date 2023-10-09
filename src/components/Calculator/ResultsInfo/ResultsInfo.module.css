@@ -1,9 +1,9 @@
 .resultsTable {
-  @apply text-left md:grid grid-cols-2 gap-x-14 overflow-hidden md:px-10 mt-28 xl:mt-0;
+  @apply text-left md:grid grid-cols-2 gap-x-14 overflow-hidden md:px-10 mt-28 xl:mt-0 xl:relative xl:px-36 xl:-top-48;
 }
 
 .results {
-  @apply px-5 md:px-0;
+  @apply px-5 md:px-0 xl:flex xl:flex-col xl:justify-center xl:pl-10;
 }
 
 .results h2 {
@@ -11,5 +11,5 @@
 }
 
 .results p {
-  @apply text-left py-10;
+  @apply text-left py-10 xl:px-0;
 }

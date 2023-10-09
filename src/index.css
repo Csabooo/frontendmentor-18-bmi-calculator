@@ -27,7 +27,7 @@
   }
 
   h2 {
-    @apply text-heading-M tracking-tighter;
+    @apply text-heading-M tracking-tighter xl:text-heading-L;
   }
 
   h3 {
