@@ -23,7 +23,7 @@
 }
 
 .limitation h2 {
-  @apply xl:pt-20 text-left;
+  @apply pt-28 pb-10 text-center xl:text-left;
 }
 
 .limitation p {
