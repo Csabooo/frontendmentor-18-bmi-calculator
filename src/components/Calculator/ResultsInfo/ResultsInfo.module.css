@@ -3,7 +3,7 @@
 }
 
 .results {
-  @apply px-5 md:px-0 xl:flex xl:flex-col xl:justify-center xl:pl-10;
+  @apply px-5 md:px-0 xl:flex xl:flex-col xl:pt-36 xl:pl-10;
 }
 
 .results h2 {

@@ -17,6 +17,7 @@ function Header() {
                 </div>
 
             </div>
+            <svg className="hidden xl:absolute xl:inline xl:top-92 xl:right-36" xmlns="http://www.w3.org/2000/svg" width="85.831" height="200.501" viewBox="0 0 85.831 200.501"><path fill="none" stroke="#ACC1DE" d="M82.719.092c7.831 41.7 2.31 140.08-82.43 200" /></svg>
         </>
     )
 }
