@@ -2,6 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      xl: "1440px",
+    },
     extend: {
       fontFamily: {
         inter: "Inter-Regular, sans-serif",
@@ -63,11 +68,6 @@ export default {
         dark_Electric_Blue: "#5E6E85",
         borders: "#D8E2E7",
         pure_White: "#FFFFFF",
-      },
-      screens: {
-        sm: "640px",
-        md: "768px",
-        xl: "1440px",
       },
     },
   },
