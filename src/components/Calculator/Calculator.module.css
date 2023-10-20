@@ -8,12 +8,28 @@
   @apply flex align-middle justify-between py-5;
 }
 
-.result {
+.welcome {
   @apply bg-blues rounded-2xl text-pure_White px-5 py-5 mt-5 md:rounded-none md:rounded-r-full xl:py-7;
 }
 
+.welcome p {
+  @apply text-left py-5 xl:m-0 xl:p-0 text-body-s;
+}
+
+.welcome h3 {
+  @apply text-left py-5 xl:m-0 xl:p-0 text-body-m-bold;
+}
+
+.result {
+  @apply bg-blues rounded-2xl text-pure_White px-5 py-5 mt-5 md:rounded-none md:rounded-r-full xl:py-7 md:grid md:grid-cols-2;
+}
+
 .result p {
-  @apply text-left py-5 xl:m-0 xl:p-0;
+  @apply text-left py-5 md:m-0 md:px-0 md:pt-3 text-body-s flex flex-col align-middle justify-center;
+}
+
+.result h3 {
+  @apply text-left py-5 xl:m-0 xl:p-0 text-body-m-bold;
 }
 
 .radioButton {

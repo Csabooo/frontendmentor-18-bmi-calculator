@@ -8,9 +8,7 @@ function Calculator() {
 
     const [defaultState, setState] = useState(true);
     const [defaultBMI, setBMI] = useState();
-
     const [defaultResult, setResult] = useState(true);
-
 
     const radioButtonHandler = () => {
         setState(prevState => !prevState)
@@ -26,11 +24,7 @@ function Calculator() {
         else {
             setResult(true);
         }
-
     }
-
-
-
 
     return (
         <>
@@ -61,7 +55,7 @@ function Calculator() {
                 {defaultState ? (<Metric bmiIndex={getValuesMetric}></Metric>) : (<Imperial></Imperial>)}
 
 
-                {defaultResult && <div className={classes.result}>
+                {defaultResult && <div className={classes.welcome}>
                     <h3>Welcome!</h3>
                     <p>
                         Enter your height and weight and you'll see your BMI result here
@@ -69,8 +63,10 @@ function Calculator() {
                 </div>}
 
                 {!defaultResult && <div className={classes.result}>
-                    <p>Your BMI is...</p>
-                    <h1>{defaultBMI}</h1>
+                    <div>
+                        <p>Your BMI is...</p>
+                        <h1>{defaultBMI}</h1>
+                    </div>
                     <p>Your BMI suggests you’re a healthy weight. Your ideal weight is between 63.3kgs - 85.2kgs.</p>
                 </div>}
 

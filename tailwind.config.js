@@ -27,7 +27,7 @@ export default {
           },
         ],
         "body-m-bold": [
-          "1rem",
+          "1.3rem",
           {
             lineHeight: "150%",
             fontWeight: "400",
